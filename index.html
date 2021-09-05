@@ -17,7 +17,7 @@
        <div class="container mt-5 mb-5">
         <h1>My Address Book</h1>
         <!--interior container-->
-        <div class="container bg-light p-3">
+        <div class="container bg-light p-3 shadow border border-2">
             <!--single row for form-->
             <div class="row">
                 <!--left column-->
@@ -47,11 +47,11 @@
                             </div>
                             <div class="col-12">
                                 <label class="form-label" for="address">Address</label>
-                                <input type="text" id="address" class="form-control" required aria-label="address">
+                                <input type="text" id="address" class="form-control" placeholder="123 Main St." required aria-label="address">
                             </div>
                             <div class="col-12">
                                 <label class="form-label" for="address2">Address 2</label>
-                                <input type="text" id="address2" class="form-control" required aria-label="address 2">
+                                <input type="text" id="address2" class="form-control" placeholder="Apt's, Studios or Floors" required aria-label="address 2">
                             </div>
                             <div class="col-12 col-md-6">
                                 <label class="form-label" for="city">City</label>
@@ -121,8 +121,8 @@
                             <div class="col-12">
                                 <ul class="list-group">
                                     <li style="list-style-type: none;">
-                                        <input class="form-check-input me-1" type="checkbox" value="Familu" aria-label="family checkbox">
-                                        Family
+                                        <input id="familyCheck" class="form-check-input me-1" type="checkbox" value="Familu" aria-label="family checkbox">
+                                        <label for="familyCheck" class="form-label">Family</label>
                                     </li>
                                 </ul>                              
                             </div>
